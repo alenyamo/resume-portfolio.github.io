@@ -1,0 +1,146 @@
+@media only screen and (max-width: 600px) {
+   #photo, #welcome {
+        width: 350px;
+       margin-left: auto;
+       margin-right: auto;
+       vertical-align: middle;
+       justify-content: center;
+       
+    
+    }
+   nav, .navbar, .nav {
+    visibility: hidden;
+
+}
+}
+
+#page1 {
+    background-color: aquamarine;
+      margin-top:50px;
+}
+#page2 {
+    background-color: palevioletred;
+      margin-top:50px;
+}
+#page3 {
+    background-color: bisque;
+      margin-top:50px;
+}
+#page4 {
+    background-color: cadetblue;
+    margin-top: 10px;
+      margin-top:50px;
+    
+}
+#intro {
+    font-family: 'Pacifico', cursive;
+}
+.nav {
+    display: inline-block;
+}
+
+/*
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}*/
+.sticky + .content {
+  padding-top: 40px;
+}
+/*
+.content {
+  padding: 16px;
+}
+*/
+
+.resume {
+    margin-bottom: 60px;
+}
+
+.submit {
+    margin-top: 10px;
+}
+.navbar, .nav {
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+     position: fixed;
+
+}
+
+.content {
+   margin-top:50px;
+}
+
+.freetime {
+    font-size: 23px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#facebook {
+    height: 150px;
+}
+
+#linkedin {
+    height: 165px;
+}
+
+#github {
+    height: 133px;
+    margin-left: 17px;
+}
+
+nav {
+    position: sticky;
+        top: 0; 
+    width: 100%; 
+    overflow: hidden;
+    z-index: 1;
+}
+
+
+a {
+    color: currentColor;
+    
+}
+
+a:hover {
+    color: floralwhite;
+}
+
+h1 {
+    text-align:center;
+    font-family: 'Gugi', cursive;
+    margin-top: 10px;
+}
+
+h2 {
+    font-size: 25px;
+    text-align: center;
+}
+
+li {
+    font-size: 17px;
+    margin-top: 10px;
+}
+
+body {
+    
+    font-family: 'KoHo', sans-serif;
+}
+
+
+
+img {
+    margin-bottom: 10px;
+    margin-top: 40px;
+}
+
+p {
+   font-size: 18px;
+}
+
+#welcome {
+    margin-top: 90px;
+    font-size: 80px;
+}
